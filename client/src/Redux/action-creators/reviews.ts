@@ -15,7 +15,6 @@ export const fetchReviews = () => {
                  }
             });
 
-            console.log(response.data, "Its Products")
             dispatch({type: ReviewsActionTypes.FETCH_REVIEWS_SUCCESS, payload:response.data})
         } catch (error) {
             dispatch({type: ReviewsActionTypes.FETCH_REVIEWS_ERROR, payload: "Something goes wrong"})
