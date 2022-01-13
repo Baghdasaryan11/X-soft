@@ -1,0 +1,228 @@
+.KeyWeys{
+    width: 90%;
+    margin: 0 auto;
+}
+
+.KeyWeys > h2{
+    font-family: "Montserrat";
+    font-weight: bold;
+    font-size: 35px;
+    line-height: 130%;
+    letter-spacing: -0.01em;
+    font-feature-settings: 'cpsp' on;
+    color: #262626;
+    margin-left: 100px;
+}
+
+.KeyWeys > div{
+    display: grid;
+    justify-content: space-between;
+    grid-template-columns: auto auto auto auto;
+}
+
+
+
+.KeyWeys_items > div{
+    width: 270px;
+    margin-top: 50px;
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+}
+.KeyWeys_items > div > img{
+    margin-right: 5px;
+    width: 34px;
+    height: 31.32px;
+
+}
+.KeyWeys_items > div > div > span{
+    font-family: Roboto;
+    font-weight: 500;
+    font-size: 22px;
+    line-height: 35px;
+    font-feature-settings: 'cpsp' on;
+    color: #262626;
+
+}
+
+.KeyWeys_items > div > div > p{
+    font-family: Roboto;
+    font-size: 16px;
+    line-height: 200%;
+    color: #484C56;
+}
+
+
+@media(max-width: 1200px){
+
+    .KeyWeys{
+        width: 90%;
+        /* height: 500px; */
+        margin: 0 auto;
+    }
+    
+    .KeyWeys > h2{
+        font-family: "Montserrat";
+        font-weight: bold;
+        font-size: 35px;
+        line-height: 130%;
+        letter-spacing: -0.01em;
+        font-feature-settings: 'cpsp' on;
+        color: #262626;
+        margin-left: 100px;
+    }
+    
+    .KeyWeys > div{
+        display: grid;
+        justify-content: space-between;
+        grid-template-columns:  auto auto auto;
+    }
+    
+    
+    
+    .KeyWeys_items > div{
+        width: 270px;
+        margin-top: 50px;
+        display: flex;
+        align-items: flex-start;
+        justify-content: space-between;
+    }
+    .KeyWeys_items > div > img{
+        margin-right: 5px;
+        width: 34px;
+        height: 31.32px;
+    
+    }
+    .KeyWeys_items > div > div > span{
+        font-family: Roboto;
+        font-weight: 500;
+        font-size: 22px;
+        line-height: 35px;
+        font-feature-settings: 'cpsp' on;
+        color: #262626;
+    
+    }
+    
+    .KeyWeys_items > div > div > p{
+        font-family: Roboto;
+        font-size: 16px;
+        line-height: 200%;
+        color: #484C56;
+    }
+}
+
+@media(max-width: 915px){
+
+    .KeyWeys{
+        width: 95%;
+        margin: 0 auto;
+    }
+    
+    .KeyWeys > h2{
+        font-family: "Montserrat";
+        font-weight: bold;
+        font-size: 22px;
+        line-height: 130%;
+        letter-spacing: -0.01em;
+        font-feature-settings: 'cpsp' on;
+        color: #262626;
+        margin-left: 0;
+        text-align: center;
+    }
+    
+    .KeyWeys > div{
+        display: grid;
+        justify-content: space-evenly;
+        grid-template-columns:  auto auto ;
+    }
+    
+    
+    
+    .KeyWeys_items > div{
+        width: 200px;
+        margin-top: 50px;
+        display: flex;
+        align-items: flex-start;
+        justify-content: space-between;
+    }
+    .KeyWeys_items > div > img{
+        margin-right: 5px;
+        width:24px;
+        height: 21.32px;
+    
+    }
+    .KeyWeys_items > div > div > span{
+        font-family: Roboto;
+        font-weight: 500;
+        font-size: 18px;
+        line-height: 35px;
+        font-feature-settings: 'cpsp' on;
+        color: #262626;
+    
+    }
+    
+    .KeyWeys_items > div > div > p{
+        font-family: Roboto;
+        font-size: 13px;
+        line-height: 200%;
+        color: #484C56;
+    }
+}
+
+@media(max-width: 500px){
+
+    .KeyWeys{
+        width: 95%;
+        margin: 0 auto;
+    }
+    
+    .KeyWeys > h2{
+        font-family: "Montserrat";
+        font-weight: bold;
+        font-size: 20px;
+        line-height: 130%;
+        letter-spacing: -0.01em;
+        font-feature-settings: 'cpsp' on;
+        color: #262626;
+        margin-left: 0;
+        text-align: center;
+    }
+    
+    .KeyWeys > div{
+        display: grid;
+        justify-content: space-evenly;
+        grid-template-columns:  auto ;
+    }
+    
+    
+    
+    .KeyWeys_items > div{
+        width: 90%;
+        margin: 10px auto;
+        display: flex;
+        align-items: flex-start;
+        justify-content: space-between;
+    }
+    .KeyWeys_items > div > img{
+        margin-right: 5px;
+        width:24px;
+        height: 21.32px;
+    
+    }
+    .KeyWeys_items > div > div > span{
+        font-family: Roboto;
+        font-weight: 500;
+        font-size: 18px;
+        line-height: 35px;
+        font-feature-settings: 'cpsp' on;
+        color: #262626;
+    
+    }
+    
+    .KeyWeys_items > div > div > p{
+        font-family: Roboto;
+        font-size: 13px;
+        line-height: 200%;
+        color: #484C56;
+    }
+}

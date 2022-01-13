@@ -1,0 +1,225 @@
+.Subscribe{
+    width: 100%;
+    /* height: 300px; */
+    position: relative;
+    padding-top: 100px;
+    margin-top: 100px;
+}
+
+.Subscribe > div{
+    width: 100%;
+    height: 264px;
+    background: #067D7B;
+    display: flex;
+    justify-content:end;
+    
+    /* position: relative; */
+}
+
+.Subscribe  > img{
+    position: absolute;
+    top: 0;
+    left: 89px;
+}
+.Subscribe_form{
+    display: flex;
+    flex-direction: column;
+    margin-right: 150px;
+}
+.Subscribe_form > h2{
+    font-family: Montserrat;
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 130%;
+    letter-spacing: -0.01em;
+    font-feature-settings: 'cpsp' on;
+    color: #FFFFFF;
+    margin-top: 50px;
+}
+.Subscribe_form > p{
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 190%;
+    color: #FFFFFF;
+}
+.Subscribe_form > label > input{
+    width: 260px;
+    height: 54px;
+    background-color: inherit;
+    color: white;
+    border: 1px solid white;
+    padding-left: 20px;
+}
+
+.Subscribe_form > label > button{
+    width: 184px;
+    height: 54px;
+    background: #FFFFFF;
+    border-radius: 2px;
+    border: none;
+    cursor: pointer;
+    margin-left: 10px;
+    margin-top: 30px;
+
+}
+
+
+::placeholder {
+    color: white;
+    opacity: 1; /* Firefox */
+  }
+  
+  :-ms-input-placeholder { /* Internet Explorer 10-11 */
+   color: white;
+  }
+  
+  ::-ms-input-placeholder { /* Microsoft Edge */
+   color: white;
+  }
+
+
+  @media(max-width: 1300px){
+    .Subscribe{
+        width: 100%;
+        /* height: 300px; */
+        position: relative;
+        padding-top: 100px;
+        margin-top: 100px;
+    }
+    
+    .Subscribe > div{
+        width: 100%;
+        height: 264px;
+        background: #067D7B;
+        display: flex;
+        justify-content:end;
+        
+        /* position: relative; */
+    }
+    
+    .Subscribe  > img{
+        width: 400px;
+        position: absolute;
+        top: 20%;
+        left: 89px;
+    }
+    .Subscribe_form{
+        display: flex;
+        flex-direction: column;
+        margin-right: 150px;
+    }
+    .Subscribe_form > h2{
+        font-family: Montserrat;
+        font-weight: 600;
+        font-size: 25px;
+        line-height: 130%;
+        letter-spacing: -0.01em;
+        font-feature-settings: 'cpsp' on;
+        color: #FFFFFF;
+        margin-top: 50px;
+    }
+    .Subscribe_form > p{
+        font-family: Roboto;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 18px;
+        line-height: 190%;
+        color: #FFFFFF;
+    }
+    .Subscribe_form > label > input{
+        width: 220px;
+        height: 54px;
+        background-color: inherit;
+        color: white;
+        border: 1px solid white;
+        padding-left: 20px;
+    }
+    
+    .Subscribe_form > label > button{
+        width: 104px;
+        height: 54px;
+        background: #FFFFFF;
+        border-radius: 2px;
+        border: none;
+        cursor: pointer;
+        margin-left: 10px;
+        margin-top: 30px;
+    
+    }
+    
+  }
+
+
+  @media(max-width: 1000px){
+    .Subscribe{
+        width: 100%;
+        /* height: 300px; */
+        position: relative;
+        padding-top: 100px;
+        margin-top: 100px;
+    }
+    
+    .Subscribe > div{
+        width: 100%;
+        height: 264px;
+        background: #067D7B;
+        display: flex;
+        justify-content:center;
+        
+        /* position: relative; */
+    }
+    
+    .Subscribe  > img{
+        width: 400px;
+        position: absolute;
+        top: 20%;
+        left: 89px;
+        display: none;
+    }
+    .Subscribe_form{
+        display: flex;
+        flex-direction: column;
+        margin-right: 0;
+    }
+    .Subscribe_form > h2{
+        font-family: Montserrat;
+        font-weight: 600;
+        font-size: 25px;
+        line-height: 130%;
+        letter-spacing: -0.01em;
+        font-feature-settings: 'cpsp' on;
+        color: #FFFFFF;
+        margin-top: 50px;
+    }
+    .Subscribe_form > p{
+        font-family: Roboto;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 18px;
+        line-height: 190%;
+        color: #FFFFFF;
+    }
+    .Subscribe_form > label > input{
+        width: 220px;
+        height: 54px;
+        background-color: inherit;
+        color: white;
+        border: 1px solid white;
+        padding-left: 20px;
+    }
+    
+    .Subscribe_form > label > button{
+        width: 104px;
+        height: 54px;
+        background: #FFFFFF;
+        border-radius: 2px;
+        border: none;
+        cursor: pointer;
+        margin-left: 10px;
+        margin-top: 30px;
+    
+    }
+    
+  }

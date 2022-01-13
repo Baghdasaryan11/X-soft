@@ -1,0 +1,106 @@
+.ShopByConcern{
+    width: 80%;
+    margin: 0 auto;
+    /* height: 300px; */
+    margin-top: 100px;
+}
+
+.ShopByConcern > h2{
+    font-family: Montserrat;
+    font-weight: bold;
+    font-size: 35px;
+    line-height: 130%;
+    letter-spacing: -0.01em;
+    font-feature-settings: 'cpsp' on;
+    color: #262626;
+    margin-left: 100px;
+
+}
+
+.ShopByConcern > div{
+    width: 100%;
+    margin-top: 40px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-gap: 15px;
+    justify-content: space-between;
+}
+.ShopByConcern > div > div{
+    /* width: 299px; */
+    height: 175px;
+    background: #FFFFFF;
+    box-shadow: 0px 10px 16px rgba(139, 143, 167, 0.2);
+    border-radius: 2px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 30px;
+}
+
+.ShopByConcern > div > div > p{
+    font-family: Roboto;
+    font-weight: 500;
+    font-size: 22px;
+    line-height: 40px;
+    text-align: center;
+    font-feature-settings: 'cpsp' on;
+    color: #262626;
+}
+
+
+
+@media(max-width: 800px){
+    .ShopByConcern{
+        width: 80%;
+        margin: 0 auto;
+        /* height: 300px; */
+        margin-top: 100px;
+    }
+    
+    .ShopByConcern > h2{
+        font-family: Montserrat;
+        font-weight: bold;
+        font-size: 35px;
+        line-height: 130%;
+        letter-spacing: -0.01em;
+        font-feature-settings: 'cpsp' on;
+        color: #262626;
+        margin-left: 0;
+        text-align: center;
+    
+    }
+    
+    .ShopByConcern > div{
+        width: 100%;
+        margin-top: 40px;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-gap: 15px;
+        justify-content: space-between;
+    }
+    .ShopByConcern > div > div{
+        /* width: 299px; */
+        height: 175px;
+        background: #FFFFFF;
+        box-shadow: 0px 10px 16px rgba(139, 143, 167, 0.2);
+        border-radius: 2px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 30px;
+    }
+    
+    .ShopByConcern > div > div > p{
+        font-family: Roboto;
+        font-weight: 500;
+        font-size: 22px;
+        line-height: 40px;
+        text-align: center;
+        font-feature-settings: 'cpsp' on;
+        color: #262626;
+    }
+    
+    
+}

@@ -1,0 +1,204 @@
+.carousel {
+  overflow: hidden;
+  position: relative;
+}
+
+.inner {
+  white-space: nowrap;
+  transition: transform 0.3s;
+  position: relative;
+}
+
+.carousel-item {
+  width: 100%;
+  display: inline-flex;
+  justify-content: space-evenly;
+  height: 438px;
+  background-color: #E3F2F2;
+    
+  
+}
+.carousel-item > div{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+
+.carousel-item > div > p{
+  font-family: Montserrat;
+  font-weight: bold;
+  font-size: 40px;
+  line-height: 130%;
+  letter-spacing: -0.01em;
+  font-feature-settings: 'pnum' on, 'lnum' on, 'kern' off;
+  color: #262626;
+}
+.carousel-item > div > div{
+  display: flex;
+  align-items: center;
+  margin-top: 10px;
+
+}
+
+.carousel-item > div > div > span{
+  font-family: Roboto;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 32px;
+  letter-spacing: -0.01em;
+  font-feature-settings: 'cpsp' on;
+  color: #262626;
+}
+.carousel-item > div > div > img{
+  width: 16px;
+  height: 20px;
+}
+.indicators {
+  width: 70%;
+  display: flex;
+  justify-content: space-between;
+  position: absolute;
+  margin: 0;
+  top: 40%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.indicators > button {
+
+  width: 50px;
+  height: 50px;
+  background: #FFFFFF;
+  border: 1px solid #067D7B;
+  border-radius: 2px;
+  color: #067D7B;
+  cursor: pointer;
+}
+.indicators > button.active {
+  color: #fff;
+}
+
+.Dots{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.Dots > div{
+  width: 40px;
+  height: 5px;
+  background: #F1F2F7;
+  cursor: pointer;
+  margin: 15px 5px;
+}
+
+.Dots > div.active {
+  background-color:  #067D7B;
+  color: #fff;
+}
+
+@media(max-width: 1000px){
+  .carousel {
+    overflow: hidden;
+    position: relative;
+  }
+  .MenDog{
+    display: none;
+  }
+  
+  .inner {
+    white-space: nowrap;
+    transition: transform 0.3s;
+    position: relative;
+  }
+  
+  .carousel-item {
+    width: 100%;
+    display: inline-flex;
+    justify-content: center;
+    height: 438px;
+    background-color: #E3F2F2;
+      
+    
+  }
+  .carousel-item > div{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  
+  
+  .carousel-item > div > p{
+    font-family: Montserrat;
+    font-weight: bold;
+    font-size: 30px;
+    line-height: 130%;
+    letter-spacing: -0.01em;
+    font-feature-settings: 'pnum' on, 'lnum' on, 'kern' off;
+    color: #262626;
+  }
+  .carousel-item > div > div{
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+  
+  }
+  
+  .carousel-item > div > div > span{
+    font-family: Roboto;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 32px;
+    letter-spacing: -0.01em;
+    font-feature-settings: 'cpsp' on;
+    color: #262626;
+  }
+  .carousel-item > div > div > img{
+    width: 16px;
+    height: 20px;
+  }
+  .indicators {
+    width: 70%;
+    display: flex;
+    justify-content: space-between;
+    position: absolute;
+    margin: 0;
+    top: 55%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+  
+  .indicators > button {
+  
+    width: 50px;
+    height: 50px;
+    background: #FFFFFF;
+    border: 1px solid #067D7B;
+    border-radius: 2px;
+    color: #067D7B;
+    cursor: pointer;
+  }
+  .indicators > button.active {
+    color: #fff;
+  }
+  
+  .Dots{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+  }
+  
+  .Dots > div{
+    width: 40px;
+    height: 5px;
+    background: #F1F2F7;
+    cursor: pointer;
+    margin: 15px 5px;
+  }
+  
+  .Dots > div.active {
+    background-color:  #067D7B;
+    color: #fff;
+  }
+}

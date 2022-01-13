@@ -1,0 +1,152 @@
+.Guarantee{
+    width: 75%;
+    height: 500px;
+    margin: 70px auto;
+    display: flex;
+}
+.Guarantee > div{
+    width: 50%;
+}
+
+.Left{
+    background-color: #E3F2F2;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.Left > h2{
+    font-family: Montserrat;
+    font-weight: bold;
+    font-size: 35px;
+    line-height: 130%;
+    text-align: center;
+    letter-spacing: -0.01em;
+    font-feature-settings: 'cpsp' on;
+    color: #262626;
+}
+.Left > p{
+    font-family: Roboto;
+    font-size: 20px;
+    line-height: 190%;
+    text-align: center;
+    color: #262626;
+    width: 80%;
+
+}
+
+.Left > button{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 16px 25px;
+    width: 133px;
+    height: 53px;
+    background: #067D7B;
+    border-radius: 2px;
+    border: none;
+    font-family: Roboto;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 21px;
+    text-align: center;
+    color: #FFFFFF;
+    cursor: pointer;
+
+}
+
+.Right{
+    background-image: url(./img.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.Right > h2{
+    font-family: Montserrat;
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 130%;
+    text-align: center;
+    letter-spacing: -0.01em;
+    font-feature-settings: 'cpsp' on;
+    color: #FFFFFF;
+}
+
+.Right > p{
+    width: 234px;
+    height: 74.15px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 190%;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.Right > div{
+    width: 60%;
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.Right > div > div{
+    width: 40px;
+    height: 5px;
+    background: #F1F2F7;
+    opacity: 0.3;
+}
+
+.Right > div > div.Active{
+    background-color: white;
+    opacity: 1;
+}
+
+
+@media(max-width: 1000px){
+    .Guarantee{
+        width: 99%;
+        height: auto;
+        margin: 70px auto;
+        display: flex;
+    }
+    
+}
+
+
+@media(max-width: 700px){
+    .Guarantee{
+        width: 99%;
+        height: auto;
+        margin: 70px auto;
+        display: block;
+    }
+    .Guarantee > div{
+        width: 100%;
+    }
+
+    .Left{
+        background-color: #E3F2F2;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-evenly;
+        padding: 10px;
+    }
+    .Right{
+        background-color: #E3F2F2;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-evenly;
+        padding: 20px;
+    }
+    
+}

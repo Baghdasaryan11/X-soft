@@ -1,0 +1,120 @@
+.BackgroundDog{
+    width: 100%;
+    height: 530px;
+    background-color: #067D7B;
+    background-image: url('../../../assets/Background.png');
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: end;
+    margin-top: 50px;
+}
+
+.BackgroundDog > div{
+    width: 50%;
+    margin-top: 60px;
+}
+.BackgroundDog > div > h2{
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 130%;
+    letter-spacing: -0.01em;
+    font-feature-settings: 'cpsp' on;
+    color: #FFFFFF;
+}
+.BackgroundDog > div > p{
+    width: 480px;
+    height: 270px;
+    overflow-y: scroll;
+    font-family: Roboto;
+    font-size: 18px;
+    line-height: 190%;
+    color: #FFFFFF;
+    margin-top: 10px;
+}
+
+.BackgroundDog > div > button{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 16px 25px;
+    width: 143px;
+    height: 53px;
+    background: #FFFFFF;
+    border-radius: 2px;
+    border: none;
+    font-family: Roboto;
+    font-size: 18px;
+    line-height: 21px;
+    text-align: center;
+    color: #067D7B;
+    margin-top: 30px;
+    cursor: pointer;
+}
+
+
+@media(max-width: 1100px){
+    .BackgroundDog{
+        width: 100%;
+        height: 530px;
+        margin: 0 auto;
+        background-color: #067D7B;
+        background-image: none;
+        background-repeat: no-repeat;
+        display: flex;
+        justify-content: center;
+        
+    }
+    
+    .BackgroundDog > div{
+        width: 100%;
+        margin-top: 60px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+
+    }
+    .BackgroundDog > div > h2{
+        font-family: Montserrat;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 32px;
+        line-height: 130%;
+        letter-spacing: -0.01em;
+        font-feature-settings: 'cpsp' on;
+        color: #FFFFFF;
+    }
+    .BackgroundDog > div > p{
+        width: 80%;
+        height: 270px;
+        overflow-y: scroll;
+        font-family: Roboto;
+        font-size: 15px;
+        line-height: 190%;
+        color: #FFFFFF;
+        margin-top: 10px;
+    }
+    
+    .BackgroundDog > div > button{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 16px 25px;
+        width: 143px;
+        height: 53px;
+        background: #FFFFFF;
+        border-radius: 2px;
+        border: none;
+        font-family: Roboto;
+        font-size: 18px;
+        line-height: 21px;
+        text-align: center;
+        color: #067D7B;
+        margin-top: 30px;
+        cursor: pointer;
+    }
+}

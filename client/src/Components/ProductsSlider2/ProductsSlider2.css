@@ -1,0 +1,11 @@
+.ProductsSlider2{
+    margin-top: 50px;
+    
+}
+
+.SlideItem {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+

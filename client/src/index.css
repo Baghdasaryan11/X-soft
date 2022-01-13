@@ -1,0 +1,90 @@
+
+
+.slick-arrow{
+    position: absolute;
+    top: 50%;
+    z-index: 100;
+    
+}
+
+.slick-prev{
+    left: 50px;
+    width: 50px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    background-color: white;
+}
+.slick-next{
+    right: 50px;
+    display: flex;
+    align-items: center;
+    width: 50px;
+    height: 50px;
+    background-color: white;
+
+}
+
+.slick-prev::before{
+    content: "<";
+    color: #067D7B;
+    font-size: 33px;
+    /* font-weight: bold; */
+    width: 50px;
+    height: 50px;
+    border: 1px solid #067D7B;
+    border-radius: 2px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+
+}
+
+.slick-next::before{
+    
+    content: ">";
+    color: #067D7B;
+    font-size: 33px;
+    width: 50px;
+    height: 50px;
+    border: 1px solid #067D7B;
+    border-radius: 2px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+
+}
+
+
+.slick-disabled{
+    background-color: white;
+}
+
+.slick-dots > li{
+    width: 40px;
+    height: 5px;
+    color: red;
+    font-size: 0;
+    content: "";
+}
+
+.slick-dots > ul{
+    margin-top: 20px;
+}
+
+.slick-dots > li > button::before{
+    width: 40px;
+    height: 5px;
+    font-size: 0;
+    background-color: #067D7B;
+    margin-top: 20px;
+
+    content: "aaaaa";
+}
+
+.slick-active > button{
+    background-color: grey;
+
+}

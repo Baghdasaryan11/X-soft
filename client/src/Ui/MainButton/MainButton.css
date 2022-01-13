@@ -1,0 +1,23 @@
+.MainButton{
+    width: 172px;
+    height: 60px;
+    background: #067D7B;
+    border: none;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 2px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 22px;
+    line-height: 26px;
+    text-align: center;
+    color: #FFFFFF;
+    cursor: pointer;
+    transition: 0.2s;
+    position: absolute;
+    top: 75%;
+}
+
+.MainButton:hover{
+    background: #067d7bbb; 
+}

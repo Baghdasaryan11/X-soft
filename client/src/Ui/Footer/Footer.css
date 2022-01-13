@@ -1,0 +1,293 @@
+footer{
+    width: 95%;
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    margin: 0 auto;
+    margin-top: 100px;
+}
+
+footer > div,ul{
+    list-style: none;
+}
+
+footer > div:first-child{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-between;
+    
+}
+footer > div:first-child > span{
+
+    font-family: Roboto;
+    font-size: 14px;
+    line-height: 25px;
+    color: #262626;
+
+}
+.BankCards {
+    width: 50%;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+}
+
+footer > div:first-child > p{
+
+    width: 297px;
+    height: 150px;
+    font-family: Roboto;
+    font-size: 14px;
+    line-height: 25px;
+    color: #262626;
+    margin-top: 31px;
+}
+
+footer > ul {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+footer > ul > p{
+    font-family: Roboto;
+    font-weight: 500;
+    font-size: 22px;
+    line-height: 35px;
+    font-feature-settings: 'cpsp' on;
+    color: #262626;
+    
+}
+footer > ul > a{
+    font-family: Roboto;
+    font-size: 18px;
+    line-height: 190%;
+    color: #262626;
+    text-decoration: none;
+    
+    
+}
+
+
+@media(max-width: 1200px){
+    footer{
+        width: 95%;
+        display: grid;
+        grid-template-columns: auto auto auto auto;
+        margin: 0 auto;
+        margin-top: 100px;
+    }
+    
+    footer > div,ul{
+        list-style: none;
+    }
+    
+    footer > div:first-child{
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: space-between;
+        
+    }
+    footer > div:first-child > span{
+    
+        font-family: Roboto;
+        font-size: 14px;
+        line-height: 25px;
+        color: #262626;
+    
+    }
+    .BankCards {
+        width: 50%;
+        display: flex;
+        justify-content: space-between;
+        margin-top: 30px;
+    }
+    
+    footer > div:first-child > p{
+    
+        width: 297px;
+        height: 150px;
+        font-family: Roboto;
+        font-size: 14px;
+        line-height: 25px;
+        color: #262626;
+        margin-top: 31px;
+    }
+    
+    footer > ul {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+    
+    footer > ul > p{
+        font-family: Roboto;
+        font-weight: 500;
+        font-size: 18px;
+        line-height: 35px;
+        font-feature-settings: 'cpsp' on;
+        color: #262626;
+        
+    }
+    footer > ul > a{
+        font-family: Roboto;
+        font-size: 15px;
+        line-height: 190%;
+        color: #262626;
+        text-decoration: none;
+        
+        
+    }
+}
+
+
+@media(max-width: 1000px){
+    footer{
+        width: 99%;
+        display: grid;
+        grid-template-columns: auto auto ;
+        margin: 5px auto;
+        margin-top: 40px;
+ 
+    }
+    
+    footer > div,ul{
+        list-style: none;
+        margin-top: 30px;
+     
+    }
+    
+    footer > div:first-child{
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: space-between;
+        
+    }
+    footer > div:first-child > span{
+    
+        font-family: Roboto;
+        font-size: 14px;
+        line-height: 25px;
+        color: #262626;
+    
+    }
+    .BankCards {
+        width: 50%;
+        display: flex;
+        justify-content: space-between;
+        margin-top: 30px;
+    }
+    
+    footer > div:first-child > p{
+    
+        width: 297px;
+        height: 150px;
+        font-family: Roboto;
+        font-size: 14px;
+        line-height: 25px;
+        color: #262626;
+        margin-top: 31px;
+    }
+    
+    footer > ul {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+    
+    footer > ul > p{
+        font-family: Roboto;
+        font-weight: 500;
+        font-size: 18px;
+        line-height: 35px;
+        font-feature-settings: 'cpsp' on;
+        color: #262626;
+        
+    }
+    footer > ul > a{
+        font-family: Roboto;
+        font-size: 15px;
+        line-height: 190%;
+        color: #262626;
+        text-decoration: none;
+        
+        
+    }
+}
+@media(max-width: 500px){
+    footer{
+        width: 99%;
+        display: grid;
+        grid-template-columns: auto ;
+        justify-content: center;
+        margin: 5px auto;
+        margin-top: 40px;
+ 
+    }
+    
+    footer > div,ul{
+        list-style: none;
+        margin-top: 30px;
+     
+    }
+    
+    footer > div:first-child{
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: space-between;
+        
+    }
+    footer > div:first-child > span{
+    
+        font-family: Roboto;
+        font-size: 14px;
+        line-height: 25px;
+        color: #262626;
+    
+    }
+    .BankCards {
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        margin-top: 30px;
+    }
+    
+    footer > div:first-child > p{
+    
+        width: 297px;
+        height: 150px;
+        font-family: Roboto;
+        font-size: 14px;
+        line-height: 25px;
+        color: #262626;
+        margin-top: 31px;
+    }
+    
+    footer > ul {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+    
+    footer > ul > p{
+        font-family: Roboto;
+        font-weight: 500;
+        font-size: 18px;
+        line-height: 35px;
+        font-feature-settings: 'cpsp' on;
+        color: #262626;
+        
+    }
+    footer > ul > a{
+        font-family: Roboto;
+        font-size: 15px;
+        line-height: 190%;
+        color: #262626;
+        text-decoration: none;
+        
+        
+    }
+}
